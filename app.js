@@ -1,6 +1,6 @@
 async function weather(url) {
   const resp = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=43906a8d2c914826a17103725213101&q=${url}`,
+    `https://cors-anywhere.herokuapp.com/http://api.weatherapi.com/v1/current.json?key=43906a8d2c914826a17103725213101&q=${url}`,
     {
       headers: {
         Authorization: "Bearer 43906a8d2c914826a17103725213101",
