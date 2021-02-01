@@ -39,10 +39,6 @@ async function app() {
   const ankaraAPI = await cityAPI("ankara");
   const tekirdagAPI = await cityAPI("tekirdag");
 
-  console.log(istanbulAPI);
-  console.log(istanbulAPI.location.name);
-  console.log(istanbulAPI.current.temp_c);
-
   citybox(
     istanbul,
     istanbulAPI,
